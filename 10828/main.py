@@ -1,8 +1,8 @@
 import sys
 input = sys.stdin.readline
-n = int(input())
+cnt = int(input())
 stack = []
-for _ in range(n):
+for _ in range(cnt):
     s = input().split()
     cmd = s[0]
     if cmd == 'push':
